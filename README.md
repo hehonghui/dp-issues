@@ -65,3 +65,22 @@
 * 183页，下1-“解析器”应为“解释器”
 * 186、187、188页，代码中“interpreter()”方法命名应为“interpret()”，应该为动词，而且与前面通用模式代码中的命名吻合。
 * 189页，中-“第一个例子我们在客户类里构建由17个数字和一个数字或字母构成的语法树”，这里没有看懂是指的哪个例子。
+
+
+## 十二章
+
+1、226页  Test类里的方法main中 DevTechFrontierDevTechFrontier = DevTechFrontier()； 中间没有空格，应该修改为"DevTechFrontier devTechFrontier = DevTechFrontier()"；
+
+2、231页 
+
+```java
+BroadcastReceiver updateReceiver = new BroadcastReceiver(){
+  @Override
+  public void onReceive(Context context, Intent intent){
+    Toast.makText(context, “”, 0).show();
+  }   //这里少了一个大括号
+};
+```
+
+3、238页,最后一行，"或之类的组件之间的交互问题……","或之"改为“或者”;
+
