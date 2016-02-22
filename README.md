@@ -92,6 +92,20 @@ BroadcastReceiver updateReceiver = new BroadcastReceiver(){
 ### 第三章
 * 第44页，底部代码中setBoard和setDisplay方法中的core和gb变量来源不明；
 
+应修改为 : 
+
+```java
+ // 设置主板
+public  void setBoard(String board) {
+  mBoard = board ;
+}
+
+// 设置显示器
+public  void setDisplay(String display) {
+  mDisplay = display ;
+}
+```
+
 ### 第四章
 * 第73页，下方的代码描述不妥当，clone方法中“new Intent(this)”，这里的this究竟指代的什么应该描述清楚，建议在示例代码外部套上对应类；
 * 第85页，下方最后一段代码中getLoginedUser方法内应该注释掉“return loginedUser”而非“loginedUser.clone()”；
