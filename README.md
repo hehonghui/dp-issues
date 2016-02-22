@@ -4,8 +4,8 @@
 
 《Android源码设计模式解析与实战》
 
-* [购买地址1](http://item.jd.com/10001520150.html) 
-* [购买地址2](http://www.epubit.com.cn/book/details/4179)。
+* [京东购买地址](http://item.jd.com/11793928.html) 
+
 
 ## 提issue规范
 
