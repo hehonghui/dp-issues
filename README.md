@@ -76,7 +76,7 @@
 * 189页，中-“第一个例子我们在客户类里构建由17个数字和一个数字或字母构成的语法树”，这里没有看懂是指的哪个例子。
 
 ### 第十二章
-* 第226页，Test类里的方法main中 DevTechFrontierDevTechFrontier = DevTechFrontier()； 中间没有空格，应该修改为"DevTechFrontier devTechFrontier = DevTechFrontier()"；
+* 第226页，Test类里的方法main中 DevTechFrontierDevTechFrontier = new DevTechFrontier()； 中间没有空格，应该修改为"DevTechFrontier devTechFrontier = new DevTechFrontier()"；
 * 第231页 
 ```java
 BroadcastReceiver updateReceiver = new BroadcastReceiver(){
