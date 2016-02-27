@@ -118,3 +118,11 @@ public  void setDisplay(String display) {
 
 ### 第十三章
 * 第255页，顶部第一行“最好”应为“最后”；
+
+### 第三章 55页 
+
+"很多读者可能对ViewRootImpl并不陌生，咋一看它的名字可能会误以为它是一个View，但实际上不是这样的，它继承自Handler，是作为native与Java层View系统通信的桥梁" 。
+
+修改为 : 
+
+`......它内部封装了一个Handler对象，通过这个Handler对象作为native与Java层View系统通信的桥梁。`
