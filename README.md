@@ -6,6 +6,7 @@
 
 * [京东购买地址](http://item.jd.com/11793928.html) 
 
+> 书中部分代码 : [https://github.com/hehonghui/android_dp_analysis_code](https://github.com/hehonghui/android_dp_analysis_code) 。
 
 ## 提issue规范
 
